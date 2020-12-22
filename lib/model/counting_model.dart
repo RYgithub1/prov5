@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 
-
 class CountingModel extends ChangeNotifier {
 
   int _counter = 12;
@@ -16,9 +15,12 @@ class CountingModel extends ChangeNotifier {
   /// [Ready methods]
   void increment() {
     _counter++;
+    notifyListeners(); /// [mandatory]
   }
   void decrement() {
     _counter--;
+    notifyListeners(); /// [mandatory]
   }
+
 
 }
