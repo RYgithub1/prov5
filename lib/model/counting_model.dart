@@ -12,4 +12,13 @@ class CountingModel extends ChangeNotifier {
     notifyListeners();
   }
 
+
+  /// [Ready methods]
+  void increment() {
+    _counter++;
+  }
+  void decrement() {
+    _counter--;
+  }
+
 }

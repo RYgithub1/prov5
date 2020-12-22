@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:prov5/counter_page.dart';
-import 'package:prov5/counting_model.dart';
+import 'package:prov5/widget/counter_page.dart';
+import 'package:prov5/model/counting_model.dart';
 import 'package:provider/provider.dart';
 
 
